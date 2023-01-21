@@ -1,0 +1,28 @@
+.home {
+    &__content {
+        padding: 0 30px;
+        &-btn {
+            font-weight: 700;
+            font-style: normal;
+            padding: 12px;
+            color: #ffffff;
+            background: #06d6a0;
+            border-color: #000000;
+            box-shadow: 0 8px 24px 0 rgba(36, 237, 130, 0.181);
+            border-style: none;
+            border-radius: 12px;
+            border: none;
+
+            cursor: pointer;
+        }
+
+        &-content {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            gap: 30px;
+        }
+    }
+}
